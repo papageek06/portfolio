@@ -15,7 +15,7 @@
 
         <div class="text-center w-80  ">
             <h1 class="mb-2 ">Développeur fulstack </h1>
-            <p>vous facilite la vie en vous créant un monde </p>
+            <p>Nouveaux développeur en recherche de stage </p>
         </div>
        
 
@@ -35,7 +35,7 @@
                             <a class="nav-link" href="#">Qui suis-je</a>
                         </li>
                         <li class="nav-item  ">
-                            <a class="nav-link" href="#">Mes expériences</a>
+                            <a class="nav-link" href="#">Me contacter</a>
                         </li>
 
                     </ul>
@@ -50,13 +50,24 @@
 
 
     <main class="row justify-content-center " >
+        <!---------------------image de presentation dev ---------------------->
+
+        <section class="row justify-content-around align-items-center">
+        <div class="col-4 p-0 m-5">
+            <img class="w-100 p-0 " src="img/images (1).jpg" alt="img responsive">
+        </div>
+        
+        <div class="col-4 p-0 m-5">
+            <img class="w-100 p-0 " src="img/img_responsive.jpeg" alt="img responsive">
+        </div>
+        </section>
 
         <!------------------qui suis je ------------------>
 
         <section class="presentation">
-          <div class=" m-2"> <h2> Un homme qui sait s'adapter</h2>
+          <div class=" m-2"> <h2> Mes point fort</h2>
 
-            <h3> mes point fort</h3>
+            
             <ul>
                 <li  >Responsable</li>
                 <li >Dynamique</li>
@@ -80,14 +91,12 @@
         <!--------------compétence------------------>
 
         <section class="row justify-content-around mt-2" >
-        <div>
-            <img src="portfolio/img/images (1).jfif" alt="img ">
-        </div>
+        
 
         <article class="col-4 row code m-5 p-0  ">
 
             <div class="col-6  ps-0 ">
-                <img class="img-fluid" src="img/2.png" alt="html">
+                <img class="img-fluid " src="img/2.png" alt="html">
             </div>
 
             <div class="row col-6  ">
@@ -198,6 +207,51 @@
             </div>
         </article>
         </section>
+
+        <!------------formulaire --------------------->
+
+        <section class="section_form row justify-content-center " id="form">
+
+            <form class="row justify-content-center flex-column" action="/ma-page-de-traitement" method="post">
+                <h3>Contactez moi</h3>
+                <ul class="w-50">
+                  <li class="row w-50">
+                    <label for="name">Nom&nbsp;:</label>
+                    <input type="text" id="name" name="user_name" placeholder="your name"/>
+                  </li>
+                  <li class="row w-50">
+                    <label for="name">Entreprise&nbsp;:</label>
+                    <input type="text" id="name" name="user_name" placeholder="your Entreprise"/>
+                  </li>
+                  <li class="row w-50">
+                    <label for="mail">E-mail&nbsp;:</label>
+                    <input type="email" id="mail" name="user_mail" placeholder="helloworld@gmail.com"/>
+                  </li>
+                  <li class="row">
+                    <label for="msg">Message&nbsp;:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                  </li>
+                </ul>
+                <button class="w-50" type="submit">submit</button>
+              </form>
+        </section>
+
+
+        <footer>
+
+            <ul class="">
+                <li><p>mr longmar marc</p></li>
+                <li><p>23 av du campon</p></li>
+                <li><p>06110 le cannet</p></li>
+                <li><p>marc.longmar@gmail.com</p></li>
+            </ul>
+
+            <ul class="flex-row justify-content-center ">
+                <li class="m-5 icon"><a href="https://www.facebook.com/marc.longmar/?locale=fr_FR"><img src="img/facebook.png"  alt="facebook"></a></li>
+                <li class="m-5 icon"><a href="www.linkedin.com/in/marc-longmar-02a0b5244"><img src="img/linkedin.png" alt=""></a></li>
+                
+            </ul>
+        </footer>
 
     </main>
 
