@@ -72,5 +72,40 @@ header nav {
     list-style: none;
 }
 
+h2 {
+    text-shadow: 5px 5px 20px;
+}
 
+.section_form {
+    background-color: rgba(212, 207, 207, 0.5);
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+form ul li input,textarea , button , label{
+    border-radius: 10px;
+  
+
+}
+
+footer {
+    background-color: rgb(64, 62, 62);
+    color: white;
+    display: flex;
+   
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+}
+
+.icon {
+    background-color : white;
+    padding: 1rem;
+    border-radius: 50%;
+    
+}
 
