@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+
+body {
+    background-image: url(../img/pexels-kampus-8353774.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(212, 207, 207, 0.9);
+    height: 200px;
+    border-radius: 10px;
+    margin: 0; /* Supprime la marge externe pour éviter un décalage */
+    padding: 1rem; /* Ajoute de l'espace interne */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    position: fixed; /* Fixe le header en haut de la page */
+    top: 1rem; /* Positionne le header au sommet */
+    left: 0; /* Évite tout décalage horizontal */
+    width: 100%; /* Prend toute la largeur de la page */
+    z-index: 1000; /* Assure que le header reste au-dessus des autres éléments */
+}
+
+header nav {
+    border-radius: 10px;
+    background: rgba(212, 207, 207, 0.5) ;
+}
+main {
+    margin-top: 240px; /* Ajoute un espace supérieur égal à la hauteur du header + marge interne */
+    padding: 1rem; /* Ajoute un padding pour un style cohérent */
+    display: flex;
+    justify-content: center;
+}
+
+.code {
+    background-color: rgba(212, 207, 207, 0.5);
+    border-radius: 30px ;
+
+    box-shadow: 10px 10px 20px;
+    
+
+}
+h4 {
+    text-align: center;
+   font-size: 2rem;
+
+}
+
+.code img {
+    border-radius: 10px;
+}
+
+.moi{
+    width: 100%;
+    border-radius: 50%;  
+
+}
+
+
+.img-section {
+    width: 50%;
+}
+
+
+/*---------qui suis je ----*/
+.header_img {
+    display: flex;
+    width: 30%;
+   padding: 2rem;
+   flex-direction: column;
+
+}
+
+.presentation{
+    width: 80%;
+    background-color: rgba(212, 207, 207, 0.5);;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 10px 10px 20px;
+    visibility: collapse;
+
+}
+.presentation ul {
+    list-style: none;
+}
+
+
+
+/* Styles de base */
+.container {
+    position: relative;
+  
+    overflow: hidden; /* Masque les éléments hors de l’espace */
+  }
+
+  
+  .section {
+   
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px); /* Déplacement initial */
+    transition: opacity 0.2s ease, transform 1s ease-in-out, visibility 0.5s;
+  }
+  
+  /* Section visible */
+  .visible {
+    position: absolute;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  #dev {
+    width: 80%;
+    height: ;
+    border: 1px black;
+    padding: 2rem;
+    border-radius: 10px 10px;
+    background-color: rgb(165, 165, 169);
+    opacity: 0.9;
+    box-shadow: 10px 10px 20px ;
+    
+  }
+  
+  #experience div img {
+padding: 1rem;
+
+  }
+
+
+@media (max-width: 575.98px) { ... }
+
+
+@media (max-width: 767.98px) { ... }
+
+
+@media (max-width: 991.98px) { 
+
+    header {
+        height: 0px;
+        padding: 0px;
+    }
+
+    .title{
+        display: none;
+    }
+
+    section {
+       width: 100%;
+       flex-direction: column;
+    }
+  
+
+ }
+
+
+@media (max-width: 1199.98px) { ... }
+
+
+@media (max-width: 1399.98px) { ... }
+
